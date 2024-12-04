@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+header {
+  padding: 20px 30px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 31.31px;
+  height: 26.22px;
+}
+
+header h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 24.25px;
+  letter-spacing: -0.1em;
+  color: #fff;
+  margin: auto auto auto 7px;
+}
+
+.meme-form {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  margin: 30px auto;
+  gap: 15px;
+}
+
+.meme-form .inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meme-form .inputs .up,
+.meme-form .inputs .down {
+  width: 220px;
+} 
+
+.meme-form .inputs label {
+  margin-bottom: 7px;
+  display: block;
+}
+
+.meme-form .inputs input {
+  width: 100%;
+  padding: 7px;
+  border: 0.82px solid #D1D5DB;
+  border-radius: 5px;
+}
+
+.meme-form .inputs input:focus {
+  border: 2px solid #D1D5DB;
+  outline: none;
+}
+
+.meme-form .form--button {
+  padding: 15px;
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.7px;
+  letter-spacing: -0.1em;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.meme {
+  position: relative;
+  text-align: center;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
